@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+   <title>Pet Website </title>
+</head>
+<body>
+    
+    <!-- nav bar -->
+     <header>
+        <div class="container">
+        <div class="navbar">
+            <!-- <div class="logo">
+                 <a href="#Contact"><img src="/imgs/petlogo.jpg" alt=" "/></a>
+
+            </div> -->
+            <nav>
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+                <li> <a href="#Home">Home </a>  </li>
+                <li> <a href="#Contact">About </a>  </li>
+                <li> <a href="#services">Services</a>  </li>
+                
+                <li> <a href="#Reservation">Booking </a>  </li>
+                <!-- <li> <a href="#Contact">Contact </a>  </li> -->
+                <li> <a href="#Contact">Contact </a>  </li>
+            </nav>
+            <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
+            </div>
+        </div>
+    </div>
+     </header>
+     <!-- navbar complete -->
+     <!-- showcase -->
+    
+     <section id="Home">
+      <main id="showcase">
+        <div class="container">
+            <div class="roll">
+                <marquee>
+                    <p>Wanna  be part of our team? Mail us @petcare.com </p>
+                   </marquee>
+            </div>
+            
+            <div class="content">
+            <!-- <img src="./imgs/petimg3.jpg" alt="img"/> -->
+            <h2>We  provide the best pet services</h2>
+            <h3>With Love &#9829;</h3>
+           
+            <div class="homebtn">
+               <a href="#Reservation" class="book-now">Book Now</a>
+                <a href="#services" class="learn-more" >Learn More</a>
+            </div>
+        </div>
+        </div>
+      </main>
+      </section>
+
+<!-- reservation page -->
+<section id="Reservation">
+    <div id="reservation_tbl">
+        <div class="container">
+            <div class="form_data">
+                <h3 class="normal_heading">Book Your Service</h3>
+                <h6 class="main_heading" style=" color:green">Feel free to reach out to us</h6>
+                <form id="bookingForm">
+                    <input type="text" id="name" placeholder="Name"/>
+                    <input type="text"  id="contact" placeholder="Contact"/>
+                    <input type="email"  id="email" placeholder="Email"/>
+                    <!-- <input type="number"  id="noofppl" placeholder="No of people"/> -->
+                    <input type="date"   id="date" placeholder="Date"/>
+                  
+                      
+      <i><h6 style="color: white ;">control and tap for multiple options</h6></i>
+    <select id="services" name="services" multiple style="width: 250px; height: 80px; padding-left: 2px;">
+  
+        <option value="service1">Play-time</option>
+        <option value="service2">Night Stay</option>
+        <option value="service3">Day Care</option>
+        <option value="service4">Bath and groom</option>
+        <option value="service5">Party Invite</option>
+    </select>
+                    <textarea  id="instructions"
+                      name="" 
+                      id=""
+                      cols="5"
+                      rows="5"
+                    placeholder="Special instructions :"
+                    ></textarea>
+                    <button type="button" id="bookButton"> Book</button>
+                </form>
+                
+            </div>
+            <div class="con">
+             <div class="infobox">  
+        <h4 style="color: green;">Going For a Vacation</h4>
+        <h1>Book For <span>Your Pet</span></h1>
+        <p class="servicehead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et maxime modi doloremque saepe ab. Laboriosam dolorem veniam provident commodi ex.</p>
+    </div>
+        <div class="services">
+            <div class="service-item">
+                <h3>Pet Care</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae.</p>
+            </div>
+            <div class="service-item">
+                <h3>Pet Boarding</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae.</p>
+            </div>
+            <div class="service-item">
+                <h3>Pet Night stay</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae.</p>
+            </div>
+            <div class="service-item">
+                <h3>Pet Food Care</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae.</p>
+            </div>
+        </div>
+                   
+         <div class="imgs">
+            
+          <!-- <img src="imgs/petsleep.jpeg"/></div> -->
+           
+            </div>
+           
+        </div>
+    </div>
+    </section>
+
+<!-- why us -->
+ <div class="Why_us">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="title">About Us</h2>
+            <p class="sub-title">Why are we the Best</p>
+        </div>
+        <div class="row">
+            <div class="about-img">
+                <div class="fancy-br-box">
+                    <img src="/imgs/whyus.jpg"/>
+
+                </div>
+            </div>
+            <div class="about-text">
+         
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In animi repellat ab nihil, nulla aspernatur commodi nesciunt ad, dolore eum officiis nobis quaerat hic labore perspiciatis ex. Repudiandae, ex recusandae?</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error aliquam aut est inventore cupiditate sapiente ab qui molestias distinctio repellat. Obcaecati expedita eligendi error recusandae repudiandae cumque est impedit rem.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quod id fugit sed nostrum doloremque animi natus impedit placeat numquam. Mollitia totam esse magni fugit animi delectus blanditiis aliquam. Magnam.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae est placeat nobis sapiente accusantium blanditiis temporibus, sed voluptas. Voluptatibus voluptates reprehenderit voluptatum recusandae sit? Accusamus ea minus nemo ipsum porro?</li>
+           
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <section id="menu">
+    <div id="food_lover">
+    <div class="container">
+       <h3 class="normal_heading-1">Your Pet our Responsibility</h3>
+       <h2 class="main_heading">Services</h2>
+       <div class="food_lover_container">
+           <div class="btn_container">
+               <button type="button" class="btn-cat active_btn" data-id="All">All Services</button>
+               <button type="button" class="btn-cat" data-id="Dinner">Stay Services</button>
+               <button type="button" class="btn-cat" data-id="Lunch">Gromming Services</button>
+               <button type="button" class="btn-cat" data-id="Drinks">Combos</button>
+               <button type="button" class="btn-cat" data-id="Drinks">Play-Party </button>
+               
+           </div>
+           <div class="menus_items_container">
+               <div class="img_cards">
+                   <img src="./imgs/dacare.jpeg" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+               <div class="img_cards">
+                   <img src="./imgs/Pawpad1.webp" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+               <div class="img_cards">
+                   <img src="./imgs/sleep.jpeg" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+               <div class="img_cards">
+                   <img src="./imgs/party.jpeg" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+               <div class="img_cards">
+                   <img src="./imgs/petplay.webp" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+               <div class="img_cards">
+                   <img src="./imgs/doc.avif" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+              
+               <div class="img_cards">
+                   <img src="./imgs/party.jpeg" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+               <div class="img_cards">
+                   <img src="./imgs/dacare.jpeg" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+               <div class="img_cards">
+                   <img src="./imgs/party.jpeg" alt=""/>
+                   <p class="price">Only for Rs 100</p>
+                   <p>Chicken and Cashwes</p>
+               </div>
+           </div>
+       </div>
+    </div>
+   </div>
+   
+   </section>
+<!-- 
+        services
+         <section id="services">
+         <div id="deal_today">
+            <div class="container swiper mySwiper">
+                <h3 class="normal_heading-1">Your Pet our Responsibility</h3>
+                <h2 class="main_heading">Our Services</h2>
+                <div class="card_content swiper-wrapper">
+                    <div class="cards swiper-slide">
+                        <img src="./imgs/dacare.jpeg" alt=""/>
+                        <h4> Day-Care</h4>
+                        <p class="text-services">Lorem ipsum dolor sit a dolores , nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <img src="./imgs/Pawpad1.webp"/>
+                        <h4> Gromming and cutting</h4>
+                        <p class="text-services">Lorem ipsum dolor sit amet contam dolores corrupti vobus errupti incidunt ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <img src="./imgs/sleep.jpeg" alt=""/>
+                        <h4>Night Stay</h4>
+                        <p class="text-services">Lorem ipsum dolor sit amet consectetutamoquod mant ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <img src="./imgs/party.jpeg" alt=""/>
+                        <h4>Party Invite</h4>
+                        <p class="text-services">Lorem ipsum dolor sit amet consectetur adupti voluptas ipsa velit voluptatibus eum quis quod magnam. Eaque corrupti incidunt ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+
+                    <div class="cards swiper-slide">
+                        <img src="./imgs/petplay.webp" alt=""/>
+                        <h4>Play Time</h4>
+                        <p class="text-services">Lorem ipsum dolor sit amet velit vo.stiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+
+                    <div class="cards swiper-slide">
+                        <img src="./imgs/petdoc.webp" alt=""/>
+                        <h4> Routine Checkups</h4>
+                        <p class="text-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores corrupti voluptas ipsa velit voluptatibus eum quis quod magnam. Eaque corrupti incidunt ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+                   
+                    <div class="cards swiper-slide">
+                        <img src="./imgs/doc.avif" alt=""/>
+                        <h4>Medical Treatments</h4>
+                        <p class="text-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores corrupti voluptas ipsa velit voluptatibus eum quis quod magnam. Eaque corrupti incidunt ipsum, nemo molestiae perspiciatis ea laudantium qui nesciunt?</p>
+                        <p class="price">Only Rs 100/-</p>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+         </div>
+        </section> -->
+
+
+ <!-- customer feedback  -->
+ <div id="customer_feedback">
+    <div class="container swiper mySwiper">
+        <h3 class="normal_heading-1">Hear what others think about us</h3>
+            <h2 class="main_heading" style="color: white;">Customer Feedback</h2>
+<div class="customer_cards_container swiper-wrapper">
+    <div class="customer_card swiper-slide">
+    <img src="/imgs/cust4.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+       
+<div class="customer_card swiper-slide">
+    <img src="/imgs/cust3.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+<div class="customer_card swiper-slide">
+    <img src="/imgs/cust2.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+<div class="customer_card swiper-slide">
+    <img src="/imgs/cust4.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+<div class="customer_card swiper-slide">
+    <img src="/imgs/cust2.jpeg" alt=""/>
+    <p>Lorem ipsum eniti li voluptatibus totam tenetur eos, ducimus amet perspiciatis ad voluptatem? Officiis voluptatem consequuntur quas molestias aliquam, adipisci, nesciunt quam deserunt inventore voluptas cupiditate velit ducimus maxime. Voluptates, expedita?
+    </p>
+    <p class="name">ABCDE</p>
+
+</div>
+</div>   
+<div class="swiper-pagination"></div>
+    </div>
+ </div>
+         <!-- static counter start -->
+<section id="static_counter">
+    <div class="container">
+        <div class="counters">
+            <div class="counter">
+                <div class="num" data-ceil="47">
+                    50</div>
+                    <h2>Services</h2>
+                
+                </div>
+                <div class="counter">
+                    <div class="num" data-ceil="50">
+                        50</div>
+                        <h2>Awards Won</h2>
+                    
+                </div>
+                    <div class="counter">
+                        <div class="num" data-ceil="57">
+                            30</div>
+                            <h2>Our Team Count</h2>
+                        
+                    </div>
+                        <div class="counter">
+                            <div class="num" data-ceil="250">
+                                250</div>
+                                <h2>Monthly Customers</h2>
+                            
+                        </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- team-->
+     <div id="chef">
+        <div class="container swiper mySwiper" id="swiper">
+            <!-- <h2 class="justheading" co>"If you are a chef, no matter how good a chef you are, it’s not good cooking for yourself; the joy is in cooking for others. It’s the same with music.”</h2> -->
+            <h3 class="noraml_heading-2" style="text-align: center; color:green;">Meet Our Team</h3>
+            <h2 class="main_heading-1">BEST TEAM FOR YOUR PET</h2>
+        <div class="chef_container swiper-wrapper">
+              <!-- chef 1 -->
+            <div class="chef_cards swiper-slide">
+                <img src="/imgs/doc2.png" alt="">
+                <div class="chef_content">
+                    <h2>Rahul Mehta</h2>
+                    <p class="position">Doctor</p>
+                </div>
+            </div>
+            <div class="chef_cards swiper-slide">
+                <img src="/imgs/cow.avif" alt="">
+                <div class="chef_content">
+                    <h2>Rahul Mehta</h2>
+                    <p class="position">Care-Taker</p>
+                </div>
+            </div>
+              <!-- chef 2 -->
+            <div class="chef_cards swiper-slide ">
+                <img src="./imgs/loyal-dog-breeds-main-1-768x512.jpg" alt="">
+                <div class="chef_content">
+                    <h2>Nikita Gandhi</h2>
+                    <p class="position">Care-Taker</p>
+                </div>
+            </div>
+            <!-- chef 3 -->
+            <div class="chef_cards swiper-slide">
+                <img src="./imgs/ct2.webp" alt="">
+                <div class="chef_content">
+                    <h2>Pillai</h2>
+                    <p class="position">Senior Care-Taker</p>
+                </div>
+            </div>
+             <!-- chef 3 -->
+             <div class="chef_cards swiper-slide">
+                <img src="./imgs/Doc1.jpeg" alt="">
+                <div class="chef_content">
+                    <h2>Pillai</h2>
+                    <p class="position">Doctor</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+       
+     </div>
+<!-- footer -->
+<section id="Contact">
+<div id="footer">
+<div class="container">
+    <div class="footer_container">
+        <div class="about_us">
+            <h2><img src="/imgs/logop.jpg" alt=""/></h2>
+            <p><b>About us </b> : Lorem ipsum dolor,  elit. Consequuntur eaque temporibus beatae lauda, repellendus eos mollitia soluta saepe doloribus. Aspernatur dolor, assumenda quisquam aliquam iure labore explicabo.</p>
+     
+        </div>
+         
+        <div class="follow">
+            <h3>Follow Us</h3>
+      <ul class="social-links">
+        <li ><a href="#">FaceBook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Whatsapp Channel</a></li>
+      </ul>
+        </div>
+        
+
+                <div class="contact_us">
+
+                <h2 style="color:#cc702f">Contact Us</h2>
+              
+                <h3>GET IN TOUCH</h3>
+                <p>+91-9864763864</p>
+                <p class="add">Add: xyz street lane no:2 pimpri chinchwad pune 411038</p>
+     <p class="email">Email: </p>
+       <p> petcare@gmail.com
+     </p>
+     <a href="#" style="color: green;" >Check out the terms and conditions</a>
+            </div>
+    </div>
+</div>
+    </div>
+
+</div>
+
+
+   
+ </section>
+
+ <footer>
+    <div class="container">
+        <p>Copyright 2024 &copy; Made with Love</p>
+    </div>
+ </footer>
+ <!-- <button type="button" class="switcher-btn js-swtcher-btn">
+    <i class="fas fa-moon"></i>
+ </button> -->
+        </body>
+<script src="js/script.js"></script>
+</html>

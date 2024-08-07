@@ -1,0 +1,357 @@
+/* large screen size 1070px */
+
+@media(max-width:1200px) {
+    
+    #reservation_tbl .container {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        
+    }
+    #reservation_tbl .container .form_data{
+        height: 15cm;
+        width: auto;
+    }
+
+    .services {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* This creates 2 columns of equal width */
+  grid-template-rows: repeat(4, 1fr);
+        gap: auto; /* Adjust the gap as needed */
+        margin-top: 2cm;
+    }
+    .service-item{
+        height: 4cm;
+        width: 5cm;
+    }
+   
+}
+@media(max-width:1070px) {
+    html{
+        font-size: 60%;
+    } 
+    .container{
+        
+        padding: 0 60px;
+    }
+    .imgs_content{
+        padding: 2rem 0;
+    }
+    .form_data{
+        width:70%;
+    }
+  
+}
+@media(max-width:1000px) {
+    
+    #reservation_tbl .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        
+    }
+    #reservation_tbl .container .form_data{
+        height: auto;
+        width: auto;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: auto; /* Adjust the gap as needed */
+        margin-top: 2cm;
+    }
+    .service-item{
+        height: 4cm;
+        width: 5cm;
+    }
+
+}
+@media(max-width:900px) {
+
+
+    #reservation_tbl .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: auto; /* Adjust the gap as needed */
+    }
+    .service-item{
+        height: 4cm;
+        width: 5cm;
+    }
+    #reservation_tbl .container .con .services {
+        display: grid;
+        flex-direction: row;
+        grid-template-rows: (2fr,2fr);
+            /* Space between the items */
+           
+      
+       
+    
+    }
+    html{
+        font-size: 55%;
+    }
+    .container{
+        
+        padding: 0 40px;
+    } 
+    .btn{
+        
+        display:block;
+    }
+    .navbar nav{
+        flex-direction: column;
+        position: fixed;
+        min-width:100%;
+        min-height: 60vh;
+        top:0;
+        right:100%;
+        background:rgb(0,0,0);
+        align-items:flex-start;
+        justify-content: center;
+        transition: all 0.5s ease-in-out; /*the way it opens/transitions*/
+    }
+    /* for the cross and menu button */
+    nav.active{
+        right:0%;
+        transition: all 0.5s ease-in-out;
+    }
+   
+    .navbar nav li{
+        margin:2rem 4rem;
+    }
+    .navbar nav li a{
+        font-size:1.4rem;
+        color:var(--white_color);
+        position: relative;
+    }
+    .close-btn{
+        position: absolute;
+        top:0;
+        left: 90%;
+        margin: 25px;
+    }
+}
+/* make spacial offer responsive  768 px*/
+@media(max-width:768px){
+    #reservation_tbl .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    /* .Why_us {
+        height: auto;
+        padding: 20px;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+       
+     }
+     .Why_us .about-img img {
+       
+         height: 5cm;
+         width: 5cm;
+         justify-content: center;
+       
+          
+         
+     } */
+     
+ /* .Why_us .about-text {
+     flex: 1;
+     margin: 10px;
+     font:1rem;
+     width: 5cm;
+ } */
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: auto; /* Adjust the gap as needed */
+    }
+    #reservation_tbl .container .con .services {
+        display: grid;
+        flex-direction: row;
+        grid-template-rows: (2fr,2fr);
+            /* Space between the items */
+           
+      
+       
+    
+    }
+    
+    #reservation_tbl .container .con .infobox{
+        margin-top: auto;
+        justify-content: center;
+    }
+    #reservation_tbl .container .con .services .service-item{
+        width: 5cm;
+        height: 3cm;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards.swiper-slide img{
+        height:10cm;
+        width:12cm;
+    }
+    .sp_content{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .form_data{
+        width: 100%;
+       
+    }
+    .form_data form input{
+        width: 100%;
+       
+    }
+    /* static counter */
+    .counters{
+      
+        grid-template-columns:repeat(2,1fr);
+        
+
+    }
+    /* menu */
+    .menus_items_container{
+       
+    
+    grid-template-columns: repeat(2,1fr);
+   
+    }
+    .footer_container{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .about_us img{
+    
+    
+        width:30%;
+        height: 3cm;
+    
+    
+    }.about_us img{
+    
+    
+    width:30%;
+    height: 3cm;
+
+
+}
+.btn-cat{
+    
+    margin:1rem 1rem;
+   
+ 
+}
+
+}
+@media(max-width:520px){
+.counters{
+      
+    grid-template-columns:repeat(1,1fr);
+    
+}
+.footer_container{
+    grid-template-columns:repeat(1,1fr);
+}
+.about_us img{
+    
+    
+    width:30%;
+    height: 3cm;
+
+
+}
+.cards.swiper-slide img{
+    height:4cm;
+    width:3cm;
+}
+.menus_items_container{
+       
+    
+    grid-template-columns: repeat(1,1fr);
+   
+    }
+    .Why_us {
+       height: 20cm;
+    }
+    .Why_us .about-img img {
+      
+        height: 4cm;
+        justify-content: center;
+        margin-top: 3cm;
+         
+        
+    }
+    
+.Why_us .about-text {
+    flex: 1;
+    margin: 10px;
+    font:1rem;
+    width: 5cm;
+}
+#reservation_tbl .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+}
+#reservation_tbl .container .con .services {
+    display: grid;
+    flex-direction: row;
+    grid-template-rows: (2fr,2fr);
+        /* Space between the items */
+       
+  
+   
+
+}
+#reservation_tbl .container .con .services .service-item{
+    width: 5cm;
+    height: 3cm;
+    justify-content: center;
+    align-items: center;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: auto; /* Adjust the gap as needed */
+}
+
+}
+@media(max-width:300px){
+    .Why_us {
+        height: 20cm;
+     }
+     .Why_us .about-img img {
+       
+         height: 4cm;
+         justify-content: center;
+         margin-top: 3cm;
+          
+         
+     }
+     
+ .Why_us .about-text {
+     flex: 1;
+     margin: 10px;
+     font:1rem;
+     width: 5cm;
+ }
+
+}
